@@ -1,0 +1,82 @@
+body{
+    background-image: url('/images/assorted-color-sequins-1191710.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box{
+    padding: 30px;
+    margin-left: 30px auto;
+    background: teal;
+    font-size: 32px;
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    top: calc(50% - 220px);
+    left: calc(50% - 300px);
+}
+
+a{
+    display: inline-block;
+    align-content: center;
+    margin: 10px 0;
+    padding: 2px; 
+}
+
+button{
+    width: 85px;
+    font-size: 0.5em;
+    display: inline-block;
+    color:black;
+    margin: 5px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rosybrown;
+}
+
+.button-1{
+    position: absolute;
+    top: 95%;
+    left: 44%;
+    /* width: 300px; */
+    padding: 30px;
+    height: 200px;
+}
+
+.question{
+    background:teal;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.question p{
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+.link{
+    text-transform: uppercase;
+    text-align: center;
+    color: aliceblue;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+ul li{
+    color: black;
+    text-transform: none;
+    display: inline-block;
+}
